@@ -1,0 +1,254 @@
+h1{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+h2{
+    color: orangered;
+    margin-inline: inherit;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+
+
+
+
+span{
+    margin-inline: 8px;
+    
+}
+
+body{
+    max-width: 100%; /* Largura ideal para leitura */
+    margin: 40px auto; /* Centraliza o post */
+    padding: 30px;
+    background: #696969; /* Fundo para o texto */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Sombra leve */
+    text-align: justify;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+p{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    
+    margin: 8px;
+       
+}
+
+
+.infos{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.indices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-inline: 8px;
+    
+    
+}
+
+.linha1{
+    padding: 12px;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha2{
+    padding: 12px;
+    background-color: #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha3{
+    padding: 12px;
+    background-color: #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+}
+
+.linha4{
+    padding: 12px;
+    background-color: #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.linha5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.linha6{
+    width: 100%;
+    padding: 12px;
+
+    background-color: #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.linhafinal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+hr{
+    border: 2px transparent rgb(22, 22, 22);
+    margin: 10px 0;
+}
+
+.caixa1{
+    width: 50%;
+    padding: 12px;
+
+    background-color: #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.caixa2{
+    width: 50%;
+    padding: 12px;
+
+    background-color: #DCDCDC;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+
+
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.cx1{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 12px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cx2{
+    background-color: antiquewhite;
+    width: 33%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cx3{
+    background-color: antiquewhite;
+    width: 33%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cx4{
+    background-color: antiquewhite;
+    width: 33%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 12px;
+    width: 80%;
+    height: 32px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
